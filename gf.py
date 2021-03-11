@@ -34,6 +34,6 @@ while True:
     os.system('xdg-open https://www.facebook.com/groups/365865727812895/?ref=share')
     break
   else:
-    #os.system('xdg-open https://m.facebook.com/profile.php?id=100064459306467')
+    #os.system('xdg-open https://www.facebook.com/ekramul.hassan.79827')
       Mao(try2)
       
