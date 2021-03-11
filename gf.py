@@ -9,7 +9,7 @@ from termcolor import colored
 mao = 'THBD'
 mao = figlet_format(mao, 'slant')
 Mao1 = colored(mao, 'cyan')
-x1 = "2116"
+x1 = "THBD"
 gf = figlet_format("GF Need?", 'slant')
 gf = colored(gf, 'red')
 em = ("😑😶😑")
