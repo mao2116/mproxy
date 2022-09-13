@@ -5,11 +5,39 @@
 [![Language](https://img.shields.io/badge/Written%20in-Python3-blue)](#)
 [![Opensource](https://img.shields.io/badge/Open%20Source-Yes-green)](#)
 
+
 **THE MAIN AUTHOR OF THIS CODE MAO2116**
 
 #### REQUIREMENTS
-* `PYTHON 3.9.X+`
+* `PYTHON >=3.9.X+`
+##### PIP MODULE 
 * `REQUESTS`
+
+#### INSTALLATION 
+```bash
+  pip3 install mproxy 
+  ```
+#### IMPORT MODULE
+
+```python
+from mproxy import proxy
+
+```
+
+#### USE OF mproxy FUNCTION
+
+```python
+proxy.mproxy(type="")
+
+
+#### Example Code Of Using This Tool
+#### Just a ip printer
+
+```python 
+from mproxy import proxy
+proxy.mproxy(type="https")
+
+```
 
 <b>Copyright (c) 2021 MAO-COMMUNITY Under <a href="https://raw.githubusercontent.com/mao2116/mmail/main/LICENSE">MIT LICENSE</a></b>
 
