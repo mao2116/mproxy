@@ -1,3 +1,7 @@
+## Working in it!
+
+
+
 <h2 align="center"> MAO _ PROXY </h2>
 <h3>VERSION : 0.1 </h3>
 
@@ -29,6 +33,8 @@ from mproxy import proxy
 ```python
 proxy.mproxy(type="")
 
+```
+##### Here type mean your security method of your url it contains 4 types of security method `http,https,socks5 and all`
 
 #### Example Code Of Using This Tool
 #### Just a ip printer
