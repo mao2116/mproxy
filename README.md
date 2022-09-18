@@ -45,6 +45,25 @@ proxy.mproxy(type="https")
 
 ```
 
+#### Realtime Example
+
+```python 
+import requests
+from mproxy import proxy
+ip_addresses = proxy.mproxy(type="http")
+
+def proxy_request(url):
+   while True:
+      try:
+        proxy = random.randint(0, len(ip_addresses) - 1)
+        proxies = {"http": ip_addresses(proxy), "https": ip_addresses(proxy)}
+        response = requests.get(url, proxies=proxies, timeout=30)
+        print(f"Proxy currently being used: {proxy}")
+      except:
+         print("Error, looking for another proxy")
+proxy_requests("http://yoururl.com/")
+```
+
 <b>Copyright (c) 2021 MAO-COMMUNITY Under <a href="https://raw.githubusercontent.com/mao2116/mmail/main/LICENSE">MIT LICENSE</a></b>
 
 <div align="center">
