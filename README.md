@@ -1,6 +1,3 @@
-## Working in it!
-
-
 
 <h2 align="center"> MAO _ PROXY </h2>
 <h3>VERSION : 0.0.1 </h3>
@@ -51,17 +48,19 @@ proxy.mproxy(type="https")
 import requests
 from mproxy import proxy
 ip_addresses = proxy.mproxy(type="http")
-
 def proxy_request(url):
-   while True:
+   for mao_proxy in ip_addresses:
       try:
-        proxy = random.randint(0, len(ip_addresses) - 1)
-        proxies = {"http": ip_addresses(proxy), "https": ip_addresses(proxy)}
+        proxies = {"http": f"http://{mao_proxy}", "https": f"http://{mao_proxy}"}
         response = requests.get(url, proxies=proxies, timeout=30)
-        print(f"Proxy currently being used: {proxy}")
-      except:
+        print(f"Proxy currently being used: {mao_proxy}")
+      except Exception as mao:
          print("Error, looking for another proxy")
-proxy_requests("http://yoururl.com/")
+proxy_request("http://your_url.mao/")
+"""
+Exmaple: 
+proxy_request("http://google.com")
+"""
 ```
 
 <b>Copyright (c) 2021 MAO-COMMUNITY Under <a href="https://raw.githubusercontent.com/mao2116/mproxy/main/LICENSE">MIT LICENSE</a></b>
