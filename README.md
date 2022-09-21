@@ -3,7 +3,7 @@
 
 
 <h2 align="center"> MAO _ PROXY </h2>
-<h3>VERSION : 0.1 </h3>
+<h3>VERSION : 0.0.1 </h3>
 
 [![Author](https://img.shields.io/badge/Author-MAO2116-blue)](https://github.com/mao2116)
 [![Language](https://img.shields.io/badge/Written%20in-Python3-blue)](#)
@@ -64,7 +64,7 @@ def proxy_request(url):
 proxy_requests("http://yoururl.com/")
 ```
 
-<b>Copyright (c) 2021 MAO-COMMUNITY Under <a href="https://raw.githubusercontent.com/mao2116/mmail/main/LICENSE">MIT LICENSE</a></b>
+<b>Copyright (c) 2021 MAO-COMMUNITY Under <a href="https://raw.githubusercontent.com/mao2116/mproxy/main/LICENSE">MIT LICENSE</a></b>
 
 <div align="center">
 <b> GET US IN CLICK </b><br><br>
