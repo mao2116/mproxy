@@ -16,12 +16,12 @@
 
 #### INSTALLATION 
 ```bash
-  pip3 install mproxy 
+  pip3 install maoproxy 
   ```
 #### IMPORT MODULE
 
 ```python
-from mproxy import proxy
+from maoproxy import proxy
 
 ```
 
@@ -37,7 +37,7 @@ proxy.mproxy(type="")
 #### Just a ip printer
 
 ```python 
-from mproxy import proxy
+from maoproxy import proxy
 proxy.mproxy(type="https")
 
 ```
@@ -46,7 +46,7 @@ proxy.mproxy(type="https")
 
 ```python 
 import requests
-from mproxy import proxy
+from maoproxy import proxy
 ip_addresses = proxy.mproxy(type="http")
 def proxy_request(url):
    for mao_proxy in ip_addresses:
